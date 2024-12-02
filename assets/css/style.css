@@ -1,0 +1,11 @@
+.navbar{
+    font-family: monospace;
+}
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    background-color: red;
+    color: white; 
+}
