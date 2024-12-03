@@ -1,11 +1,21 @@
+*{
+    font-family: "Press Start 2P", system-ui;
+}
 .navbar{
-    font-family: monospace;
+    font-family: "Press Start 2P", system-ui;
 }
 .navbar .nav-link {
     color: white;
+    transition: 0.4s
 }
 
 .navbar .nav-link:hover {
-    background-color: red;
-    color: white; 
+    transform: scale(1.2);
+    background: linear-gradient(45deg, #9D95D5, #C98269, #69C1A3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+.background{
+    transform: scale(1.2);
+}
+
