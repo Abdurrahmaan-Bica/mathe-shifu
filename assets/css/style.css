@@ -1,21 +1,53 @@
-*{
+* {
     font-family: "Press Start 2P", system-ui;
 }
-.navbar{
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden; 
+    padding-top: 100px; 
+    padding-bottom: 0px; 
+    background-color: #e3e3e6; 
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #181c47;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
     font-family: "Press Start 2P", system-ui;
+    overflow: hidden; 
 }
 .navbar .nav-link {
-    color: white;
-    transition: 0.4s
+    color: rgb(112, 105, 161);
+    transition: 0.4s;
 }
 
 .navbar .nav-link:hover {
     transform: scale(1.2);
+    transform-origin: center center; 
     background: linear-gradient(45deg, #9D95D5, #C98269, #69C1A3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .background{
     transform: scale(1.2);
+
 }
 
