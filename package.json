@@ -1,0 +1,15 @@
+{
+  "name": "mathe-shifu",
+  "version": "1.0.0",
+  "description": "If you want to contribute to this project, feel free to open a pull request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algebrite": "^1.4.0"
+  }
+}
