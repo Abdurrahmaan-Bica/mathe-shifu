@@ -130,7 +130,7 @@ span{
     transition: all 0.2s ease;
   }
   
-  .pixel-button:hover {
+  #pixel-button:hover {
     background-color: transparent;
     box-shadow: 2px 2px 0px #C98269; 
     transform: translate(2px, 2px);
