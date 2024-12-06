@@ -71,4 +71,13 @@ footer {
     from, to { border-color: transparent }
     50% { border-color: transparent; }
   }
+  .container {
+    animation: color-change 2s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color:#9D95D5; }
+    50% { color: #C98269; }
+    100% { color: #69C1A3; } 
+  }
  
