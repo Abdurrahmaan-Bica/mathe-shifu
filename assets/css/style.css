@@ -112,9 +112,6 @@ footer {
     transform: scale(1.2);
 
 }
-span{
-    animation: color-change 2s infinite;
-}
 .pixel-button {
     font-family: "Press Start 2P", cursive; 
     font-size: 14px;
