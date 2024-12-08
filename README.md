@@ -1,8 +1,9 @@
-# Mathe-Shifu
+# Mathe-Shifu - MiniHackathon 2.0 Project 
+Mathe-Shifu is an innovative learning platform that combines mathematics with the philosophy and discipline of martial arts. Our goal is to make learning mathematics both motivating and unique.
 
 
-## How does it work?
 
+## What inspired the creation of Mathe-Shifu?
 
 
 ### Features
