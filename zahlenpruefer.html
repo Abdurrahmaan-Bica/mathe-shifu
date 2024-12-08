@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item me-4">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="\">Home</a>
                 </li>
                 <li class="nav-item me-4">
-                  <a class="nav-link" href="#">Über das Projekt</a>
+                  <a class="nav-link" href="#">Ableitungs- und Integralassistent</a>
                 </li>
                 <li class="nav-item me-4">
                   <a class="nav-link" href="playground.html">Spielplatz</a>
@@ -47,19 +47,16 @@
        <main>
        
           <div class="container-main">
-            <h2>Ableitung- und Integralgenerator</h2>
+            <h2>Zahlenprüfer</h2>
             
-            <label for="operation">Wählen Sie eine Operation:</label>
-            <select id="operation">
-                <option value="derivative">Ableitung</option>
-                <option value="integral">Integral</option>
-            </select>
+            <label for="operation">Geben Sie bitte eine Zahl ein:
+
+            </label>
+            <input type="number" required>
+            
             
             <p id="ergebnis"></p>
-            <button class="pixel-button">f(x) = x² + 3x</button>
-            <button class="pixel-button">f(x) = sin(x)+1</button>
-            <button class="pixel-button">f(x) = cos(x)-2x</button>
-            <button class="pixel-button">f(x) = log(x+8) </button>
+            <button class="pixel-button">Prüfen</button>
           </div>
           <h2>Ergebnis:</h2>
           <p id="result"></p>
