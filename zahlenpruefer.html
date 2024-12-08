@@ -19,65 +19,51 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-white">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img src="/assets/images/platform-logo.png" alt=" Platform Logo" width="180" height="180" class="d-inline-block align-text-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/platform-logo.png" alt="Platform Logo" width="180" height="180" class="d-inline-block align-text-top">
                 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item me-4">
-                  <a class="nav-link" href="\">Home</a>
-                </li>
-                <li class="nav-item me-4">
-                  <a class="nav-link" href="#">Ableitungs- und Integralassistent</a>
-                </li>
-                <li class="nav-item me-4">
-                  <a class="nav-link" href="playground.html">Spielplatz</a>
-                </li>
-              </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="\">Home</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="playground.html">Spielplatz</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
-      
-  
-       </header>
-       <main>
-       
-          <div class="container-main">
-            <h2>Zahlenprüfer</h2>
-            
-            <label for="operation">Geben Sie bitte eine Zahl ein:
+    </header>
 
-            </label>
-            <input type="number" required>
-            
-            
+    <main>
+        <div class="container-main">
+            <h2 class="heading-zwei">Zahlenprüfer</h2>
+            <label class="heading-zwei" for="numberInput">Geben Sie bitte eine Zahl ein:</label>
+            <input type="number" id="numberInput" class="heading-zwei" required>
             <p id="ergebnis"></p>
-            <button class="pixel-button">Prüfen</button>
-          </div>
-          <h2>Ergebnis:</h2>
-          <p id="result"></p>
-          
-  
-        
-      </main>
-       <footer class="text-light" >
-          <div class="container-footer">
+            <button class="pixel-button" id="checkButton">Prüfen</button>
+        </div>
+        <br>
+        <p id="result"></p>
+    </main>
+
+    <footer class="text-light">
+        <div class="container-footer">
             <div class="row">
-              <div class="col">
-                <h4>MiniHackathon 2.0</h4>
-                <p> Made with &#129293; by Abdurrahmaan</p>
-              </div>
-             
+                <div class="col">
+                    <h4>MiniHackathon 2.0</h4>
+                    <p> Made with &#129293; by Abdurrahmaan</p>
+                </div>
             </div>
-          </div>
-       </footer>
-        
-    
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/zahlenpruefer.js"></script>
 </body>
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/calc.js"></script>
 </html>
