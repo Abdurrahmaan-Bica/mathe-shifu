@@ -14,10 +14,13 @@ $(document).ready(function() {
         if (eingegebeneZahl === '' || isNaN(eingegebeneZahl)) {
             $('#result').text('Bitte geben Sie eine gültige Zahl ein!');
         } else {
-            // Konvertierung zu Integer
             eingegebeneZahl = parseInt(eingegebeneZahl);
             let result = istEineGeradeZahl(eingegebeneZahl); 
             $('#result').text(result);
         }
     });
+});
+
+$('.flip-button').on('click', function () {
+    $(this).toggleClass('flipped'); 
 });
